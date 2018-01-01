@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Guru Project" verbose="1">
+    <test name="Tests">
+        <classes>
+            <class name="Tc1"/>
+            <class name="Tc2"/>
+            <class name="Tc3"/>
+            <class name="Tc4"/>
+            <class name="Tc5"/>
+        </classes>
+    </test>
+</suite>
