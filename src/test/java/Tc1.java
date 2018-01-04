@@ -30,12 +30,14 @@ public class Tc1 {
 
     @Test
     public void Tc1(){
+
         // 1.App name Guru99 is exist on screen
         if(driver.findElement(By.id("android:id/action_bar_title")).isDisplayed()){
             System.out.println("guru99 header is displayed");
         }else {
             System.out.println("guru99 header is not displayed");
         }
+
         // 2.Course Category is displayed, clickable & selected (hilghlighted)
         WebElement eleCourseCate = driver.findElement(By.xpath("//android.widget.TextView[@text='Course Category']"));
         if (eleCourseCate.isDisplayed()&&eleCourseCate.isSelected()){
@@ -43,6 +45,7 @@ public class Tc1 {
         }else {
             System.out.println("Course Category is not selected");
         }
+
         // 3.Content of Course Category is displayed in list
         //get all the courses and store them in a List
         List<WebElement> listCategory = driver.findElements(By.id("com.vector.guru99:id/lblListHeader"));
@@ -57,6 +60,7 @@ public class Tc1 {
                 System.out.println(" and it is not anabled");
             }
         }
+
         // 4.Course List is displayed, clickable & not selected
         WebElement eleCourseList = driver.findElement(By.xpath("//android.widget.TextView[@text='Course List']"));
         if (eleCourseList.isDisplayed()&&!eleCourseList.isSelected()){

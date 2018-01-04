@@ -75,7 +75,7 @@ public class Tc2 {
 
         int childElementsCount = allElementText.size();
 
-        Assert.assertEquals(childElementsCount,9,"Sap course and Sub Contents are equal");
+        Assert.assertEquals(childElementsCount,11,"Sap course and Sub Contents are equal");
 
     }
 
