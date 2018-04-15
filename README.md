@@ -1,7 +1,5 @@
 # Guru99 Native App - Appium
 
-## Status
-
 ## Objective
 Intent of this project is to illustrate how Appium can be used to test mobile application Android on real project and run the device with multiple test cases.
 
