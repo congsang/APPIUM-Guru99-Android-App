@@ -24,6 +24,5 @@ Intent of this project is to illustrate how Appium can be used to test mobile ap
  - Type of Application: Native <br/>
  - Gesture Simulated: Touch/Scroll 
 
-##Note
-I have write this project  to help you start doing funtional automation from the first day itself. Hope very helpful for you. All scripts have been tested on emulator
+> I have written this project to help you start doing this functional automation from the first day itself. Hope very helpful for you. All scripts have been tested on the emulator device.
 
